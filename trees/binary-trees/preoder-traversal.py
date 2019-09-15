@@ -14,8 +14,6 @@ class Solution:
         while stack:
             node = stack[0][0]
         
-            # print("Iteration {}".format(iter))
-            
             if node is None:
                 # print('None, ascending')
                 del(stack[0])
