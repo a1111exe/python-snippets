@@ -15,7 +15,7 @@ class Solution:
             node = stack[0][0]
 
             if node is None:
-                # print('None, ascending')
+                # The node is None, ascending
                 del(stack[0])
                 continue
 
